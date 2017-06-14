@@ -1,0 +1,14 @@
+{
+    "name": "issidorov/merge-pdf",
+    "require-dev": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Sidorov",
+            "email": "iv.serg.sidorov@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
