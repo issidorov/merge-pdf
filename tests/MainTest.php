@@ -1,7 +1,7 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
-require __DIR__ . '/../MergePdf.php';
+require __DIR__ . '/../src/MergePdf.php';
 
 use issidorov\mergePdf\MergePdf;
 use PHPUnit\Framework\TestCase;
