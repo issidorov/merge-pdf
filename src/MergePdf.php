@@ -37,13 +37,13 @@ class MergePdf
 
         $args[] = escapeshellarg($filename);
 
-        $command = 'pdfbox PDFMerger ' . implode(' ', $args);
+        $command = 'pdfbox PDFMerger ' . implode(' ', $args) . ' 2>&1';
 
-        exec($command);
-
-        if (!file_exists($filename)) {
-            throw new Exception('Invalid merge pdf files');
-        }
+        exec($command, $output, $return);
+        
+        if ($return > 0) {
+			throw new Exception(implode("\n", $output));
+		}
     }
 
     public function writeToTmpFile()
