@@ -24,7 +24,7 @@ Install
     Create file `/usr/local/bin/pdfbox`:
     ```
     #!/bin/bash
-    java -jre '/usr/local/share/java/pdfbox-app.jar' $@
+    java -jar '/usr/local/share/java/pdfbox-app.jar' $@
     ```
     Edit file permission:
     ```
