@@ -1,7 +1,7 @@
 Merge PDF files
 ===============
 
-This is wrapper on `pdfbox`
+This is wrapper for `pdfbox`
 (https://pdfbox.apache.org/).
 
 Install
